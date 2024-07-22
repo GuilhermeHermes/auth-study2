@@ -1,6 +1,6 @@
 import {auth} from "@/auth"
 
-const SettingsPage = async () => {
+const RequestPage = async () => {
   const session = await auth()
   session?.user.role
     return (  
@@ -10,4 +10,4 @@ const SettingsPage = async () => {
     );
 }
  
-export default SettingsPage
+export default RequestPage
